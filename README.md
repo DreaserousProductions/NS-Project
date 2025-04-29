@@ -1,3 +1,11 @@
+# Network Security Project
+## Submitted By: Naghul Pranav A S (CS22B1037)
+## Date: 29/04/2024
+
+This project focuses on implementing encryption and decryption techniques to secure communication over a network, specifically using RSA (Rivest-Shamir-Adleman) public-key cryptography. It consists of two components: a receiver that generates an RSA key pair (public and private keys) and waits for incoming encrypted messages, and a sender that encrypts a message using the receiver's public key and transmits it over a socket-based network. The encrypted message is divided into blocks, and each block is decrypted by the receiver using its private key. The system ensures the confidentiality of the message during transmission, making it a practical demonstration of secure communication in network security.
+
+---
+
 # Receiver
 
 **Imports and Config:**
